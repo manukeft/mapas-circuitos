@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapas Circuitos</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/addons/p5.sound.js"></script>
+  <script src="functions.js"></script>
+  <script src="sketch.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Mapas Circuitos</h1>
+      <h2>Proyecto Final - OTAV 1 Digitalización</h2>
+    </header>
+    
+    <section class="dossier">
+      <p>
+        "Mapas Circuitos" es una experiencia interactiva desarrollada en p5.js que fusiona arte generativo y una estética visual inspirada en dos mundos interconectados: los mapas topológicos de sistemas de transporte urbano y las placas de circuito impreso (PCB).
+      </p>
+      <p>
+        Ambos sistemas, aunque funcionalmente distintos, comparten una lógica visual lineal, estructurada y modular. Este proyecto explora esa intersección estética y conceptual, generando una red de transporte ficticia algorítmicamente, en la que líneas y estaciones evocan tanto a los recorridos del subte como a los trayectos del flujo eléctrico.
+      </p>
+      <div class="image-gallery">
+        <figure>
+          <img src="imagenes/metromoscu.png" alt="Mapa topológico" class="dossier-image">
+          <figcaption>Mapa topológico del metro de Moscú.</figcaption>
+        </figure>
+        <figure>
+          <img src="imagenes/circuito.jpg" alt="Placa de circuito impreso" class="dossier-image">
+          <figcaption>Placa de circuito impreso.</figcaption>
+        </figure>
+      </div>
+      <h3>¿Cómo funciona?</h3>
+      <p>
+        - <strong>Generación aleatoria</strong>: Cada vez que se inicia o regenera el mapa, se crean entre 5 y 8 líneas con estaciones y nombres únicos derivados del mundo electrónico (como “Resistencia”, “Transistor” o “Microchip”).<br>
+        - <strong>Interactividad</strong>: Al hacer clic en una estación, el usuario puede activar una partícula animada que recorre la línea correspondiente, acompañada de un sonido de subte.<br>
+        - <strong>Temas visuales</strong>: El usuario puede alternar entre dos estilos visuales: un tema clásico de mapa de transporte (colores vivos) y otro con estética PCB (tonos verdes y metálicos).<br>
+        - <strong>Navegación</strong>: Incluye pantallas de inicio y fin, con opciones para regenerar el mapa o volver al inicio.
+      </p>
+      <div class="image-gallery">
+        <figure>
+          <img src="imagenes/boceto1.png" alt="BocetoMAPA" class="dossier-image">
+        </figure>
+        <figure>
+          <img src="imagenes/boceto2.png" alt="BocetoPCB" class="dossier-image">
+
+        </figure>
+      </div>
+      <div class="button-container">
+        <a href="sketch.html" class="button">Explorar Mapas Circuitos</a>
+      </div>
+    </section>
+    
+    <footer>
+      <p>Proyecto Final - OTAV 1 Digitalización | manukeft, 2025</p>
+    </footer>
+  </div>
+</body>
+</html>
